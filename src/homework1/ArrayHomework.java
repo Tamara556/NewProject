@@ -16,5 +16,18 @@ public class ArrayHomework {
         for (int i = 9; i > -1; i--) {
             System.out.print(numbs[i] + " ");
         }
+        System.out.println();
+        char[] chars = {'բ', 'ա', 'ր', 'և', 'ա', 'շ', 'խ', 'ա', 'ր', 'հ'};
+        char[] vowels = {'ա', 'ո', 'օ', 'ը', 'ի', 'է', 'ե'};
+        int vowelsCount = 0;
+        for (char c : chars) {
+            for (char v : vowels) {
+                if (c == v) {
+                    vowelsCount++;
+                    break;
+                }
+            }
+        }
+        System.out.println("vowelsCount:" + " " + vowelsCount);
     }
 }
