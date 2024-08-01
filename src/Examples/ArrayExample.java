@@ -1,4 +1,4 @@
-package homework1;
+package Examples;
 
 public class ArrayExample {
     public static void main(String[] args) {
